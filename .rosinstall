@@ -1,0 +1,28 @@
+# IT IS UNLIKELY YOU WANT TO EDIT THIS FILE BY HAND,
+# UNLESS FOR REMOVING ENTRIES.
+# IF YOU WANT TO CHANGE THE ROS ENVIRONMENT VARIABLES
+# USE THE rosinstall TOOL INSTEAD.
+# IF YOU CHANGE IT, USE rosinstall FOR THE CHANGES TO TAKE EFFECT
+- git: {local-name: overlay, uri: 'https://github.com/pal-robotics/overlay.git', version: master}
+- git: {local-name: pal_gazebo_plugins, uri: 'https://github.com/pal-robotics/pal_gazebo_plugins.git',
+    version: master}
+- git: {local-name: pal_image_processing, uri: 'https://github.com/pal-robotics/pal_image_processing.git',
+    version: fuerte}
+- git: {local-name: perception_blort, uri: 'https://github.com/pal-robotics/perception_blort.git',
+    version: fuerte}
+- git: {local-name: reem_arm_navigation, uri: 'https://github.com/pal-robotics/reem_arm_navigation.git',
+    version: master}
+- git: {local-name: reem_common, uri: 'https://github.com/pal-robotics/reem_common.git',
+    version: master}
+- git: {local-name: reem_controllers, uri: 'https://github.com/pal-robotics/reem_controllers.git',
+    version: fuerte}
+- git: {local-name: reem_kinematics, uri: 'https://github.com/pal-robotics/reem_kinematics.git',
+    version: master}
+- git: {local-name: reem_msgs, uri: 'https://github.com/pal-robotics/reem_msgs.git',
+    version: fuerte}
+- git: {local-name: reem_robot, uri: 'https://github.com/pal-robotics/reem_robot.git',
+    version: master}
+- git: {local-name: reem_simulation, uri: 'https://github.com/pal-robotics/reem_simulation.git',
+    version: master}
+- setup-file: {local-name: /opt/ros/fuerte/setup.sh}
+- other: {local-name: /usr/share/osrf-common-1.0/ros}
